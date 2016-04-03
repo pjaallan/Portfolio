@@ -77,18 +77,23 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
  }
+ /* begin css added by Peter */
  .page-image {
- 	width: 150px;
- 	height: 150px;
+ 	max-width: 100%;
  	border: 1px solid black;
  	 }
  .image{
  	display:inline-block;
  	border:	3px solid #c0c0c0;
- 	padding: 5px;
- 	margin: 5px 0;
- 	width: 47%;
+ 	padding: 7px;
+ 	margin: 5px 5px;
+ 	width: 45%;
+ 	box-shadow: 5px 5px 5px #999999;
  }
+ .image p {
+ 	text-align: center;
+ }
+ /* end css added by Peter */
  .tag {
   background-color: #efefef;
   color: black;
